@@ -1,0 +1,17 @@
+{
+    "name": "Alegra POS",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Alegra POS"
+    },
+    "icons": {
+        "128": "pos.png"
+      },
+    "permissions": [
+        "tabs",
+        "unlimitedStorage",
+        "notifications"
+        ]
+  }

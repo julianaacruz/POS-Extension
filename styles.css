@@ -1,0 +1,122 @@
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+#header {
+    width: 100%;
+    padding: 4px 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.company{
+    width: 56px;
+    height: 28px;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+}
+
+
+
+.caption{
+    font-size: 12px;
+    color: #64748B;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    margin: 0px;
+}
+
+.container{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px 12px;
+gap: 12px;
+
+width: fit-content;
+height: 68px;
+
+}
+
+h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0F172A;
+    margin: 0%;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #334155;
+    margin: 0%;
+}
+
+#message {
+    width:fit-content;
+}
+
+.logo {
+    width: 58px;
+    height: 48px;
+}
+
+
+#company_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.img_container{
+    padding: 0px;
+    margin: 0px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.status_container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 33px;
+    gap: 20px;
+    
+    border-top: 1px solid #E2E8F0;
+    
+    }
+
+#icon_container{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background-color: #FFFFFF;
+    border: none;
+}
