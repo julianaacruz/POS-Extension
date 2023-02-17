@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alegra POS</title>
-    <link rel="stylesheet" href="/styles.css"/>
+    <link rel="stylesheet" href="/POS-Extension/styles.css"/>
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 </head>
@@ -13,10 +13,10 @@
     <div id="header">
         <div id="company_container">
             <div class="img_container">
-                <img class="company" src="https://d500.epimg.net/cincodias/imagenes/2015/05/08/pyme/1431098283_691735_1431098420_noticia_normal.jpg" alt="">
+                <img class="company" src="img/logo.svg" alt="logo Alegra POS">
             </div>
             
-            <div class="caption"> administrador@gmail.com </div>
+            
         </div>
         
 
@@ -27,25 +27,44 @@
     </div>
 
     <div class="container">
-        <div>
-            <a href="https://pos.alegra.com/" target="blank"><img class="logo" src="img/pos.svg" alt="Logo Alegra POS"></a>
-            
-        </div>
-
         <div id="message">
-            <h4>Alegra POS</h4>
-            <p>Todas tus terminales están sincronizadas</p>
+            <h4>Terminal actual:</h4>
+            <p>Santa Mónica</p>
         </div> 
+        
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablinks_picked">Hoy</button>
+            <button class="tablinks">Ayer</button>
+            <button class="tablinks">Esta semana</button>
+            <button class="tablinks">Este mes</button>
+        </div>
     </div>
 
-    <div class="status_container">
-        <div id="icon_container">
-            <img class="icon" src="img/check.svg" alt="Logo Alegra POS">
+    <div class="info_container">
+        <div class="sync">
+            <div id="icon_container">
+                <img class="icon" src="img/check.svg" alt="Logo Alegra POS">
+            </div>
+    
+            <div>
+                <h4>Sincronización al día</h4>
+                <p id="caption">Todos los datos del navegador guardados</p>
+            </div> 
         </div>
 
-        <div>
-            <p>Sincronización al día</p>
-        </div> 
+        <div class="reports">
+            <div class="data">
+                <p id="caption">Ventas</p>
+                <h1>15</h1>
+            </div>
+            <div class="data">
+                <p id="caption">Valor de ventas</p>
+                <h2>$547,500</h2>
+
+            </div>
+        </div>
+        
     </div>
     
 </body>

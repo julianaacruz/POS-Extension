@@ -21,18 +21,10 @@ img {
 }
 
 .company{
-    width: 56px;
-    height: 28px;
-    border: 1px solid #E2E8F0;
-    border-radius: 8px;
+    height: 36px;
 }
 
 
-
-.caption{
-    font-size: 12px;
-    color: #64748B;
-}
 
 body {
     display: flex;
@@ -44,15 +36,10 @@ body {
 }
 
 .container{
-
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 16px 12px;
+padding: 12px 12px 0px 16px;
 gap: 12px;
-
 width: fit-content;
-height: 68px;
+
 
 }
 
@@ -61,22 +48,61 @@ h4{
     font-weight: 600;
     font-size: 16px;
     line-height: 28px;
-    color: #0F172A;
+    color: #334155;
     margin: 0%;
 }
 
 p {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     color: #334155;
     margin: 0%;
 }
 
 #message {
+    display:flex;
+    flex-direction: row;
     width:fit-content;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 12px;
 }
+
+.tablinks{
+    font-size: 14px;
+    color: #64748B;
+    font-family: inherit;
+}
+
+.tablinks_picked{
+    font-size: 14px;
+    color: #334155;
+    font-family: inherit;
+    font-weight: 600;
+    border-bottom: 2px solid #30ABA9 !important;
+}
+
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    transition: 0.3s;
+    
+  }
+
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgba(226, 232, 240, 0.45);;
+  }
+  
 
 .logo {
     width: 58px;
@@ -99,17 +125,70 @@ p {
     align-items: center;
 }
 
-.status_container{
+.info_container{
+    background-color: #F1F5F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 28px;
+    gap: 12px;
+    border-top: 1px solid #E2E8F0;
+    }
 
+.sync{
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 12px 33px;
-    gap: 20px;
-    
-    border-top: 1px solid #E2E8F0;
-    
-    }
+    padding: 12px 12px;
+    gap: 12px;
+    border-radius: 8px;
+    border: 1px solid #E2E8F0;
+    width: 100%;
+}
+
+#caption{
+    font-size: 12px;
+    color: #64748B;
+}
+
+.reports{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px 12px 16px;
+    gap: 12px;
+
+}
+
+.data{
+    width: 146px;
+    height: 96px;
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+
+}
+
+h1{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 20px;
+    color: #334155;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    color: #334155;
+}
 
 #icon_container{
     display: flex;
